@@ -9,18 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andyandreone/backendClase7.git"
+    "url": "git+https://github.com/andyandreone/clase7Backend.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andyandreone/backendClase7/issues"
+    "url": "https://github.com/andyandreone/clase7Backend/issues"
   },
-  "homepage": "https://github.com/andyandreone/backendClase7#readme",
+  "homepage": "https://github.com/andyandreone/clase7Backend#readme",
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
   }
 }

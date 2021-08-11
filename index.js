@@ -1,5 +1,5 @@
-const { count } = require('console');
-const { O_NONBLOCK } = require('constants');
+//import express from 'express';
+//import fs from 'fs';
 const express = require('express');
 const fs = require('fs')
 
@@ -10,6 +10,7 @@ app.listen(8080, ()=>{
 
 let countItem=0;
 let countItems=0;
+
 
 //PUNTO 1
 app.get('/items',(req,res)=>{
